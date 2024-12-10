@@ -1,0 +1,5 @@
+CHECKING flake8
+docker-compose run --rm app sh -c "flake8"
+
+BUILD docker compose
+docker-compose build
