@@ -3,3 +3,9 @@ docker-compose run --rm app sh -c "flake8"
 
 BUILD docker compose
 docker-compose build
+
+Create Project Python
+
+docker-compose run --rm app sh -c "django-admin startproject app ."
+
+docker compose up
